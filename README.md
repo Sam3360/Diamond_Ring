@@ -38,7 +38,7 @@ This repo is intended for learning, showcasing progress, and sharing a reusable 
 ├── ring.blend
 ├── 6feca32a-09ce-4f8d-914f-1e706bfcaae6.png
 ├── LICENSE
-└── README.md
+|── README.md
 
 ---
 
