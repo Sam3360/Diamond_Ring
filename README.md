@@ -1,65 +1,59 @@
-#💍 Diamond Ring (Blender Project)
+# 💍 Diamond Ring (Blender Project)
 
-A 3D-modelled diamond ring created in Blender, featuring a gold band, a faceted diamond, and a custom multi-layered support structure designed to hold the stone securely and distribute weight evenly.
+A 3D-modelled **diamond ring** created in **Blender**, featuring a gold band, a faceted diamond, and a custom multi-layered support structure designed to hold the stone securely and distribute weight evenly.
 
 ![Ring Preview](6feca32a-09ce-4f8d-914f-1e706bfcaae6.png)
 
-📝 Description
+---
+
+## Description
 
 This project showcases:
 
-A gold ring base
+- A gold ring base  
+- A faceted diamond with transmission/IOR for realistic refraction  
+- Multiple small support rings and prongs to stabilize the stone  
+- A stepped seating system so the diamond’s tip sits safely inside the ring  
+- Geometry arranged to avoid the diamond tip entering the finger area
 
-A faceted diamond with realistic light refraction
+This repo is intended for learning, showcasing progress, and sharing a reusable 3D asset.
 
-Multiple small support rings to stabilize the diamond
+---
 
-A stepped seating system so the diamond’s tip sits safely inside the ring
+## Blender Details
 
-Geometry arranged to avoid the diamond tip entering the finger area
+- **Software:** Blender  
+- **Main file:** `ring.blend`  
+- **Notable features:**
+  - Gold material (metallic + roughness)  
+  - Diamond material (transmission + IOR)  
+  - Subdivision Surface + Smooth Shading  
+  - Multi-layer support structure beneath the stone
 
-A blend of engineering design + beginner-friendly Blender modelling
+---
 
-This repository is meant for learning, showcasing progress, and sharing a reusable 3D asset.
+## Files
 
-🛠 Blender Details
-
-Software: Blender
-
-Main File: ring.blend
-
-Features:
-
-Gold material with roughness and metallic properties
-
-Diamond material using transmission + IOR
-
-Support structure beneath the stone
-
-Subdivision Surface and Smooth Shading
-
-📂 File Structure
 .
 ├── ring.blend
 ├── 6feca32a-09ce-4f8d-914f-1e706bfcaae6.png
 ├── LICENSE
 └── README.md
 
+yaml
+Copy code
 
-If you decide to add renders or texture folders later, you can expand this section.
+---
 
-📜 License
+## License
 
-This project is licensed under the MIT License, allowing free use, modification, and distribution.
+This project is released under the **MIT License**.
 
-⭐ Future Improvements
+---
 
-Higher-quality rendered images for the preview
+## Future improvements
 
-More realistic prongs or claw settings
-
-HDRI environment lighting
-
-Export to .obj or .fbx for use in other projects
-
-More polished gold and diamond shaders
+- Add high-resolution renders for the preview  
+- Refine prongs and internal seating for manufacturability  
+- Add HDRI lighting and polished materials  
+- Exports: `.obj`, `.fbx` for other platforms
